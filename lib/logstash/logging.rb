@@ -3,7 +3,7 @@ require "cabin"
 require "logger"
 
 class LogStash::Logger 
-  attr_accessor :target
+  attr_accessor :target, :level
 
   public
   def initialize(*args)
