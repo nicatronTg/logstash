@@ -77,6 +77,7 @@ Gem::Specification.new do |gem|
   gem.add_runtime_dependency "twitter", "5.0.0.rc.1"            #(MIT license)
   gem.add_runtime_dependency "rsolr"                            #(Apache 2.0 license)
   gem.add_runtime_dependency "edn"                              #(MIT license)
+  gem.add_runtime_dependency "kafka-rb", ["0.0.12"]
 
   if RUBY_PLATFORM == 'java'
     gem.platform = RUBY_PLATFORM
